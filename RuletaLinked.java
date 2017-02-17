@@ -1,6 +1,6 @@
 
 import imports.SLinkedList; //Importar linked list creada en laboratorio
-import imports.JOtransform; //importar clase creada para sesplegar una ventana que pida un numero y se transforme de string a int
+import imports.JOtransform; //importar libreria utilizada para agilizar el uso de JOptionsPane (una gui para recibir datos) 
 
 
 public class RuletaLinked { //Clase Principal
