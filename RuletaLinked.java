@@ -1,6 +1,6 @@
 
 import imports.SLinkedList; //Importar linked list creada en laboratorio
-import imports.JOtransform; //importar libreria utilizada para agilizar el uso de JOptionsPane (una gui para recibir datos) 
+import imports.JOtransform; //importar libreria utilizada para agilizar el uso de JOptionsPane (una gui para recibir datos)  
 
 
 public class RuletaLinked { //Clase Principal
