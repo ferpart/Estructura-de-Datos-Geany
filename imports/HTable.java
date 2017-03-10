@@ -4,7 +4,7 @@ import java.math.BigInteger;																						//Para poder usar el KEY, que 
 
 public class HTable {
 
-    private final static int TABLE_SIZE = 29;																		//Define el tamaño de la tabla, se usa como MOD (29 es un numero primo
+    private final static int TABLE_SIZE = 17;																		//Define el tamaño de la tabla, se usa como MOD (29 es un numero primo
     Entry[] htable;
 
     public HTable() {
@@ -57,9 +57,12 @@ public class HTable {
     	String listaf="";
     	for(int i=0; i<TABLE_SIZE; i++){
     		if (htable[i]!=null){
-    			listaf+=(htable[i].getKey()+"        ");
+    			listaf+=(htable[i].getKey()+":");
     			listaf+=(htable[i].getData()+"\n");
     		}
+    		else {
+				listaf+=("null\n");
+			}
     	}
     	return listaf;
     }
