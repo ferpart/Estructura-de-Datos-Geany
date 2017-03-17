@@ -11,11 +11,8 @@ public class RadixSortQueue{
 	GQueue<Integer> bucket7= new GQueue<Integer>();
 	GQueue<Integer> bucket8= new GQueue<Integer>();
 	GQueue<Integer> bucket9= new GQueue<Integer>();
-	//SLinkedList<Integer> value = new SLinkedList<Integer>();
 	GQueue<Integer> value= new GQueue<Integer>();
 	GQueue<Integer> trash1 = new GQueue<Integer>();
-	//int length;
-	//int indice= 0;
 	int mod = 10;
 	int div = 1;
 	int digitlen;
@@ -24,52 +21,34 @@ public class RadixSortQueue{
 	public RadixSortQueue(){
 		this(null, 0);
 	}
-	public RadixSortQueue(GQueue<Integer> x, int y/*SLinkedList<Integer> x*/){
+	public RadixSortQueue(GQueue<Integer> x, int y){
 		this.value=x;
 		this.digitlen=y;
 	}
 	public String sort(){
-		//String prueba =Listpass().toString();
-		//System.out.println(prueba);
 		return Listpass().toString();
 	}
 	private GQueue<Integer> Listpass(){
 		return Listpass(value, mod, div);
 	}
 	private GQueue<Integer> Listpass(GQueue<Integer> valuen, int modn, int divn){
-		//int i = 0;
 		GQueue<Integer> trash = new GQueue<Integer>();
-		
-		//System.out.println(valuen.toString());
 		while(!valuen.isEmpty()){
-			//System.out.println(valuen.isEmpty());
 			int element = valuen.dequeue();
-			//System.out.println(element);
 			int sort = ((element%modn)/divn);
-			//System.out.println(j);
-			//i++;
 			if (j==digitlen){
-				//System.out.println(j);
 				trash1.enqueue(element);
 			}
 			bucketstore(element,sort);
 		}
 		trash=bucketrelease();
-		//trash1=trash;
 		modn*=10;
 		divn*=10;
 		
 		while(j<digitlen){
-			//System.out.println(j);
 			j++;
-			//trash1.toString();
-			//System.out.println();
 			Listpass(trash,modn,divn);
-			//modn*=10;
-			//divn*=10;
 		}
-		//System.out.println(trash1.toString());
-		//indice=0;
 		return trash1;
 	}	
 	
@@ -102,61 +81,51 @@ public class RadixSortQueue{
 		if (!bucket0.isEmpty()){
 			while(bucket0.size()>0){
 				valuefin.enqueue(bucket0.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket1.isEmpty()){
 			while(bucket1.size()>0){
 				valuefin.enqueue(bucket1.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket2.isEmpty()){
 			while(bucket2.size()>0){
 				valuefin.enqueue(bucket2.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket3.isEmpty()){
 			while(bucket3.size()>0){
 				valuefin.enqueue(bucket3.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket4.isEmpty()){
 			while(bucket4.size()>0){
 				valuefin.enqueue(bucket4.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket5.isEmpty()){
 			while(bucket5.size()>0){
 				valuefin.enqueue(bucket5.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket6.isEmpty()){
 			while(bucket6.size()>0){
 				valuefin.enqueue(bucket6.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket7.isEmpty()){
 			while(bucket7.size()>0){
 				valuefin.enqueue(bucket7.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket8.isEmpty()){
 			while(bucket8.size()>0){
 				valuefin.enqueue(bucket8.dequeue());
-				//indice++;
 			}
 		}
 		if (!bucket9.isEmpty()){
 			while(bucket9.size()>0){
 				valuefin.enqueue(bucket9.dequeue());
-				//indice++;
 			}
 		}
 		return valuefin;
