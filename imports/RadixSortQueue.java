@@ -11,7 +11,7 @@ public class RadixSortQueue{
 	GQueue<Integer> bucket7= new GQueue<Integer>();
 	GQueue<Integer> bucket8= new GQueue<Integer>();
 	GQueue<Integer> bucket9= new GQueue<Integer>();
-	GQueue<Integer> value= new GQueue<Integer>();
+	GQueue<Integer>   value= new GQueue<Integer>();
 	GQueue<Integer> trash1 = new GQueue<Integer>();
 	int mod = 10;
 	int div = 1;
