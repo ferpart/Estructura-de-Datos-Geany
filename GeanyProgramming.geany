@@ -27,18 +27,8 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=11
-FILE_NAME_0=16;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CGQueue.java;0;4
-FILE_NAME_1=16;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CIQueue.java;0;4
-FILE_NAME_2=16;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CNode.java;0;4
-FILE_NAME_3=352;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5CRuletaQueue.java;0;4
-FILE_NAME_4=0;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CIStack.java;0;4
-FILE_NAME_5=180;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CJoptionTrans.java;0;4
-FILE_NAME_6=249;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CJOtransform.java;0;4
-FILE_NAME_7=593;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CLinkList.java;0;4
-FILE_NAME_8=283;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CSLinkedList.java;0;4
-FILE_NAME_9=0;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CStackG.java;0;4
-FILE_NAME_10=201;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5CRuletaLinked.java;0;4
-FILE_NAME_11=261;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5CQuadraticHashProbing_ruleta.java;0;4
-FILE_NAME_12=16;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CEntry.java;0;4
-FILE_NAME_13=46;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CHTable.java;0;4
+current_page=1
+FILE_NAME_0=16;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CEntry.java;0;4
+FILE_NAME_1=0;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CBinaryTree.java;0;4
+FILE_NAME_2=0;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5Cimports%5CBNode.java;0;4
+FILE_NAME_3=488;Java;0;EUTF-8;1;1;0;D%3A%5Cferpa%5Cworkspace%5CEstructura%20de%20datos%20Geany%5CBinaryTree_ruleta.java;0;4

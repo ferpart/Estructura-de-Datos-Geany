@@ -6,11 +6,13 @@ public class GQueue<E> implements IQueue<E>{
 	private Node<E> firstNode,
 					lastNode;
 	private int size;
+	private String string;
 	
 	public GQueue(){
 		firstNode=null;
 		lastNode=null;
 		size=0;
+		string="";
 	}
 	
 	public boolean isEmpty(){
@@ -51,7 +53,19 @@ public class GQueue<E> implements IQueue<E>{
 		return firstNode.getData();
 	}
 	
+	public String toString(){
+		while(!isEmpty()){
+			string+=("$"+dequeue()+"\n");
+		}
+		return string;
+	}
+	
 	public int size(){ 
 			return size;
 			}
-}		
+		
+		
+	
+	
+}
+
