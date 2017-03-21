@@ -10,7 +10,7 @@ public class RadixSortQueue_ruleta {
 		for(int i=0; i<numcompras; i++){
 			mainqueue.enqueue(Integer.parseInt(JOptionPane.showInputDialog(null, "Dame los gastos que hiciste el dia de hoy:")));
 		}
-		RadixSortQueue sorter = new RadixSortQueue(mainqueue,10);
+		RadixSortQueue sorter = new RadixSortQueue(mainqueue);
 		
 		JOptionPane.showMessageDialog(null, ("Tus compras organizadas del dia de hoy son:\n")+ sorter.sort());
 		

@@ -15,15 +15,14 @@ public class RadixSortQueue{
 	GQueue<Integer> trash1 = new GQueue<Integer>();
 	int mod = 10;
 	int div = 1;
-	int digitlen;
+	int digitlen = 0;
 	int j=0;
 			
 	public RadixSortQueue(){
-		this(null, 0);
+		this(null);
 	}
-	public RadixSortQueue(GQueue<Integer> x, int y){
+	public RadixSortQueue(GQueue<Integer> x){
 		this.value=x;
-		this.digitlen=y;
 	}
 	public String sort(){
 		return Listpass().toString();
@@ -36,6 +35,12 @@ public class RadixSortQueue{
 		while(!valuen.isEmpty()){
 			int element = valuen.dequeue();
 			int sort = ((element%modn)/divn);
+			int length = String.valueOf(element).length();
+			if (j==0){
+				if (digitlen<length){
+					digitlen=length;
+				}
+			}
 			if (j==digitlen){
 				trash1.enqueue(element);
 			}
